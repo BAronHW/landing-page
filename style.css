@@ -120,7 +120,34 @@ a:visited{
     gap: 20px;
     text-align: center;
     flex: 1 1 auto;
+    margin-bottom: 100px;
 
 }
 
+/* quote section */
+.quote-container{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 0 500px;
+    color: #1F2937;
+    flex: 1 1 auto;
+}
+
+.quote-container p{
+    font-size: 20px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    display: block;
+    text-align: center;;
+    margin-top: 70px;
+}
+
+.quote-container b{
+    text-align: right;
+    margin-bottom: 40px;
+    color: #1F2937;
+    font-weight: bold;;
+}
 
