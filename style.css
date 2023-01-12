@@ -77,7 +77,6 @@ a:visited{
     border-color: #1F2937;
 }
 
-/* hero text section */
 
 .hero-image{
     width: 350px;
@@ -89,3 +88,31 @@ a:visited{
     margin-top: 70px;
     display: flex;
 }
+
+/* hero section */
+
+.gallery-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #1F2937;
+}
+
+.gallery-header{
+    font-size: 14px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.picture{
+    background-color: #1F2937;
+    height: 50px;
+    width: 50px;
+}
+
+.p-and-t-container{
+    display: flex;
+}
+
+
