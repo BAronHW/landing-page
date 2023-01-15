@@ -121,7 +121,6 @@ a:visited{
     text-align: center;
     flex: 1 1 auto;
     margin-bottom: 100px;
-
 }
 
 /* quote section */
@@ -150,4 +149,41 @@ a:visited{
     color: #1F2937;
     font-weight: bold;;
 }
+/*quote section*/
 
+.signup-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    margin: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 15px;
+    padding: 20px;
+    color: #F9FAF8;
+    flex: 1 1 auto;;
+}
+
+.right button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    padding: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 5px;
+}
+
+/*sign up section*/
+
+.footer{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 16px;
+    text-align: center;
+}
