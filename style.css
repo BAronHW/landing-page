@@ -14,12 +14,14 @@ body{
 
 .nav-bar{
     display: flex;
+    flex-direction: row;
     font-size: 24px;
     color: #F9FAF8;
     background-color: #1F2937;
     padding: 10px;
     justify-content: space-around;
     padding: 16px;
+    flex-wrap: wrap;
     
 }
 
@@ -42,7 +44,9 @@ a:visited{
 
 .logo{
     font-weight: 900;
-    margin-right: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* everything above is the nav bar */
@@ -76,6 +80,7 @@ a:visited{
     color: #F9FAF8;
     border-radius: 5px;
     border-color: #1F2937;
+    margin: 16px;
 }
 
 
@@ -88,6 +93,10 @@ a:visited{
     border-radius: 20px;
     margin-top: 70px;
     display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: auto;
+    
 }
 
 /* hero section */
@@ -120,7 +129,7 @@ a:visited{
     flex-direction: row;
     gap: 20px;
     text-align: center;
-    flex: 1 1 auto;
+    flex-wrap: wrap;
     margin-bottom: 100px;
 }
 
@@ -129,9 +138,9 @@ a:visited{
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 0 500px;
     color: #1F2937;
-    flex: 1 1 auto;
+    flex: auto;
+    flex-wrap: wrap;
 }
 
 .quote-container p{
@@ -139,12 +148,15 @@ a:visited{
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
-    display: block;
+    display: flex;
+    justify-content: center;
     text-align: center;;
     margin-top: 70px;
 }
 
 .quote-container b{
+    display: flex;
+    justify-content: center;
     text-align: right;
     margin-bottom: 40px;
     color: #1F2937;
@@ -163,7 +175,7 @@ a:visited{
     border-radius: 15px;
     padding: 20px;
     color: #F9FAF8;
-    flex: 1 1 auto;;
+    flex-wrap: wrap;
 }
 
 .right button{
